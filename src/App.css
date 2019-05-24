@@ -18,9 +18,9 @@ body {
   height: 90vh;
   background: url("img/yellow.png") center center no-repeat;
   background-size:  cover;
-  display: flex;
+  /* display: flex; */
   align-items: center;
-  justify-content: center;
+  /* justify-content: center; */
   text-align: center;
   box-shadow: 0px 13px 40px -13px rgba(0,0,0,0.75);
   width: 100%;
@@ -88,6 +88,9 @@ button {
   background-color: #f16051;
   color: #fff;
   font-weight: 100;
+   transition: .5s ease;
+   top: 50%;
+   left: 50%;
 }
 
 button:active {
@@ -95,7 +98,7 @@ button:active {
 }
 
 .advice__info {
-  /* width: 60%; */
+
   font-size: 20px;
   font-weight: 200;
   letter-spacing: 2px;
@@ -103,14 +106,14 @@ button:active {
 
 .advice__key {
   color: #f16051;
-  border-bottom: solid 2px rgba(255,255,255,0.06);
+
   padding: 20px 0 20px 0;
   font-weight: 400;
 }
 
 
 
-.advice__value {
+/* .advice__value {
   color: #fff;
   font-weight: 200;
-}
+} */
